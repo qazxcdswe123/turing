@@ -1,0 +1,29 @@
+/* dude css is hard */
+/* definitely ugly, but hey it works lol */
+
+a:link,
+a:visited {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+a:hover,
+a:active {
+  color: lightblue;
+}
+
+#container {
+  position: absolute;
+
+  /* center */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
